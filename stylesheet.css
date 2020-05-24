@@ -24,3 +24,33 @@ body {
 h1 {
   margin-bottom: 30px;
 }
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #p1 {
+    width: 33.33%;
+  }
+  #p2 {
+    width: 33.33%;
+    
+  }
+  #p3 {
+    width:33.33%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #p1 {
+    width: 33%
+  }
+  #p2 {
+    width: 33%
+  }
+  #p3 {
+    width: 33%
+  }
+  body {
+    background-color: blue;
+  }
+}
